@@ -7,6 +7,7 @@ const userTemplate = new mongoose.Schema({
     themes:{type:String, default:"1"},
     links:[{
         title:{type:String},
+        type:{type:String},
         link:{type:String},
         icon:{type:String},
         visible:{type:Boolean},
