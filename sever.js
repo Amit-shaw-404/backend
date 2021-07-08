@@ -262,7 +262,7 @@ app.post("/userDetails", (req,res) => {
         }
     })
 })
-
+    
 app.post('/fetchDetails',(req,res)=>{
     userTemplate.find({username: req.body.username}, (err, result)=>{
         if(err){
